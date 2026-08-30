@@ -3,13 +3,22 @@
     <channel>
         <title>Paragon</title>
         <item>
+            <title>0.1.1</title>
+            <pubDate>Sat, 29 Aug 2026 20:50:33 -0700</pubDate>
+            <sparkle:version>0.1.1</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/colorandlight/paragon-releases/releases/download/v0.1.1/Paragon-0.1.1.dmg" length="50180520" type="application/octet-stream" sparkle:edSignature="xw85J+Ym90aCUen1gO0hgOetjsVNyNXkBi1w9lFhpx/sNk58s+vmsn6YjxYBvKdkZwWCnW3wHBYqoZZVUop1CQ=="/>
+        </item>
+        <item>
             <title>0.1.0</title>
             <pubDate>Sat, 29 Aug 2026 14:28:32 -0700</pubDate>
             <sparkle:version>0.1.0</sparkle:version>
             <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/colorandlight/paragon-releases/releases/download/v0.1.0/Paragon-0.1.0.dmg" sparkle:edSignature="eO7MVuEx77mf52i2c1G2VBxPIvraqegaalxw/b7eXMWLu92ln84nhvyEdjnr+th8tIX7oMN0cosyrm/msfMqCw==" length="43350874" type="application/octet-stream"/>
+            <enclosure url="https://github.com/colorandlight/paragon-releases/releases/download/v0.1.0/Paragon-0.1.0.dmg" length="43350874" type="application/octet-stream"/>
         </item>
     </channel>
 </rss>
