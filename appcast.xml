@@ -3,6 +3,18 @@
     <channel>
         <title>Paragon</title>
         <item>
+            <title>0.2.0</title>
+            <pubDate>Sat, 29 Aug 2026 21:58:26 -0700</pubDate>
+            <sparkle:version>0.2.0</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/colorandlight/paragon-releases/releases/download/v0.2.0/Paragon-0.2.0.dmg" length="51221416" type="application/octet-stream" sparkle:edSignature="IandrUpPOz2NURTrHANSuh3s2xuxVUt6RXGwg84cS8zEwlBUoQTjuF/1am4RzqY2jR1ECGD9pi7wWmni8c2cBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://colorandlight.github.io/paragon-releases/Paragon0.2.0-0.1.1.delta" sparkle:deltaFrom="0.1.1" length="267694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7EoE+J/BbGZa4ZVkpgDNHr5vJxsOibErDgshDpsdHqbEdrmDT98rxPGx3gINWRO6A/UsKIgU4OH9nizgepXQBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.1</title>
             <pubDate>Sat, 29 Aug 2026 20:50:33 -0700</pubDate>
             <sparkle:version>0.1.1</sparkle:version>
