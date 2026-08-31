@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Paragon — Color+Light</title>
+  <link rel="icon" type="image/png" href="paragon-icon.png">
   <meta name="description" content="Paragon is professional lighting control for macOS. Download the latest notarized build.">
   <style>
     :root {
@@ -29,15 +30,13 @@
       text-align: center;
     }
     .mark {
-      width: 72px;
-      height: 72px;
+      width: 88px;
+      height: 88px;
       margin: 0 auto 28px;
-      border-radius: 16px;
-      background: var(--blue);
-      display: grid;
-      place-items: center;
+      border-radius: 20px;
+      overflow: hidden;
     }
-    .mark svg { width: 44px; height: 44px; }
+    .mark img { display: block; width: 100%; height: 100%; }
     h1 {
       font-size: 42px;
       font-weight: 600;
@@ -76,15 +75,8 @@
 </head>
 <body>
   <main>
-    <div class="mark" aria-hidden="true">
-      <svg viewBox="0 0 64 64" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round">
-        <path d="M32 6 L54 20 L54 44 L32 58 L10 44 L10 20 Z"/>
-        <path d="M32 6 L32 58"/>
-        <path d="M10 20 L54 20"/>
-        <path d="M10 44 L54 44"/>
-        <path d="M10 20 L32 32 L54 20"/>
-        <path d="M10 44 L32 32 L54 44"/>
-      </svg>
+    <div class="mark">
+      <img src="paragon-icon.png" width="88" height="88" alt="Paragon">
     </div>
     <h1>Paragon</h1>
     <p class="lede">Professional lighting control for macOS.</p>
