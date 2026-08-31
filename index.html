@@ -82,9 +82,9 @@
     <p class="lede">Professional lighting control for macOS.</p>
     <a class="download" id="download"
        href="https://github.com/colorandlight/paragon-releases/releases/download/v0.2.0/Paragon-0.2.0.dmg">
-      Download for macOS
+      Download Paragon 0.2.0
     </a>
-    <p class="meta" id="meta">Version 0.2.0 · Developer ID signed and notarized</p>
+    <p class="meta">macOS · Developer ID signed and notarized</p>
     <footer>
       <a href="https://colorandlight.art">Color+Light</a>
     </footer>
@@ -97,8 +97,7 @@
         if (!dmg) return;
         var version = String(rel.tagName || "").replace(/^v/, "");
         document.getElementById("download").href = dmg.browser_download_url;
-        document.getElementById("meta").textContent =
-          "Version " + version + " · Developer ID signed and notarized";
+        document.getElementById("download").textContent = "Download Paragon " + version;
       })
       .catch(function () {});
   </script>
