@@ -81,9 +81,8 @@
     <h1>Paragon</h1>
     <p class="lede">Professional lighting control for macOS.</p>
     <a class="download" id="download"
-       href="https://github.com/colorandlight/paragon-releases/releases/download/v0.2.1/Paragon-0.2.1.dmg"
-       target="_blank" rel="noopener noreferrer">
-      Download Paragon 0.2.1
+       href="https://github.com/colorandlight/paragon-releases/releases/download/v0.2.0/Paragon-0.2.0.dmg">
+      Download Paragon 0.2.0
     </a>
     <p class="meta">macOS · Developer ID signed and notarized</p>
     <footer>
@@ -91,17 +90,15 @@
     </footer>
   </main>
   <script>
-    var button = document.getElementById("download");
-
     fetch("https://api.github.com/repos/colorandlight/paragon-releases/releases/latest")
       .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
       .then(function (rel) {
         var dmg = (rel.assets || []).find(function (a) { return /\.dmg$/i.test(a.name); });
+        if (!dmg) return;
         var version = String(rel.tag_name || "").replace(/^v/, "");
-        if (dmg && /^\d+\.\d+/.test(version)) {
-          button.href = dmg.browser_download_url;
-          button.textContent = "Download Paragon " + version;
-        }
+        if (!/^\d+\.\d+/.test(version)) return;
+        document.getElementById("download").href = dmg.browser_download_url;
+        document.getElementById("download").textContent = "Download Paragon " + version;
       })
       .catch(function () {});
   </script>
