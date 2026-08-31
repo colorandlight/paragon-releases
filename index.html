@@ -95,7 +95,8 @@
       .then(function (rel) {
         var dmg = (rel.assets || []).find(function (a) { return /\.dmg$/i.test(a.name); });
         if (!dmg) return;
-        var version = String(rel.tagName || "").replace(/^v/, "");
+        var version = String(rel.tag_name || "").replace(/^v/, "");
+        if (!/^\d+\.\d+/.test(version)) return;
         document.getElementById("download").href = dmg.browser_download_url;
         document.getElementById("download").textContent = "Download Paragon " + version;
       })
