@@ -3,6 +3,20 @@
     <channel>
         <title>Paragon</title>
         <item>
+            <title>0.2.2</title>
+            <pubDate>Tue, 01 Sep 2026 13:31:34 -0700</pubDate>
+            <sparkle:version>0.2.2</sparkle:version>
+            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/colorandlight/paragon-releases/releases/download/v0.2.2/Paragon-0.2.2.dmg" length="49088917" type="application/octet-stream" sparkle:edSignature="q1W8zq4LL/dqOlFkQ86X2cNgOaCzST6q2K2VHj6anbZavkswXZcNNouId5RrqgPl3wuSoiQjcvwKpZVkoZdSCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/colorandlight/paragon-releases/main/Paragon0.2.2-0.2.1.delta" sparkle:deltaFrom="0.2.1" length="348702" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9CoAFwnSYendedTjCtMJCNrfv/0CuB7EuNXoq724ymcVK0RDtiYoqimxEGathYdbKuXwRBKxbfhYwFaMKxYpCA=="/>
+                <enclosure url="https://raw.githubusercontent.com/colorandlight/paragon-releases/main/Paragon0.2.2-0.2.0.delta" sparkle:deltaFrom="0.2.0" length="1170514" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/yl4ieALE4XdAJKlm2rrGYxza0OZa0CfgqVUZd16rzezUenqbKtr0w/KYNwMaPF2zDwBxc782c08AMWs3HKeCw=="/>
+                <enclosure url="https://raw.githubusercontent.com/colorandlight/paragon-releases/main/Paragon0.2.2-0.1.1.delta" sparkle:deltaFrom="0.1.1" length="1190050" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="R6x27Rfb/t3hCQjfhuh7sO8HsExo9u017iJs8TnkjwZvGHybV3PVVttbNSFDA5CsDoixlO9w9MJ3zPGeopcuAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.2.1</title>
             <pubDate>Mon, 31 Aug 2026 12:19:31 -0700</pubDate>
             <sparkle:version>0.2.1</sparkle:version>
@@ -26,15 +40,6 @@
             <sparkle:deltas>
                 <enclosure url="https://colorandlight.github.io/paragon-releases/Paragon0.2.0-0.1.1.delta" sparkle:deltaFrom="0.1.1" length="267694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7EoE+J/BbGZa4ZVkpgDNHr5vJxsOibErDgshDpsdHqbEdrmDT98rxPGx3gINWRO6A/UsKIgU4OH9nizgepXQBw=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.1.1</title>
-            <pubDate>Sat, 29 Aug 2026 20:50:33 -0700</pubDate>
-            <sparkle:version>0.1.1</sparkle:version>
-            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/colorandlight/paragon-releases/releases/download/v0.1.1/Paragon-0.1.1.dmg" length="50180520" type="application/octet-stream" sparkle:edSignature="xw85J+Ym90aCUen1gO0hgOetjsVNyNXkBi1w9lFhpx/sNk58s+vmsn6YjxYBvKdkZwWCnW3wHBYqoZZVUop1CQ=="/>
         </item>
     </channel>
 </rss>
