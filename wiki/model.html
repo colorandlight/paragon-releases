@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The model — Paragon wiki</title>
+  <link rel="icon" type="image/png" href="/paragon-icon.png">
+  <link rel="stylesheet" href="wiki.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="/"><img src="/paragon-icon.png" alt="">Paragon</a>
+    <nav>
+      <a href="/wiki/">Wiki</a>
+      <a href="/">Download</a>
+      <a href="https://colorandlight.art">Color+Light</a>
+    </nav>
+  </header>
+  <div class="shell">
+    <aside class="side">
+      <a href="index.html" class="">Overview</a>
+<a href="install.html" class="">Install</a>
+<a href="projects-and-shows.html" class="">Projects and shows</a>
+<a href="model.html" class="here">Model</a>
+<a href="fixtures.html" class="">Fixtures</a>
+<a href="visualizer.html" class="">Visualizer</a>
+<a href="mixer-and-scenes.html" class="">Mixer and scenes</a>
+<a href="color-and-canvases.html" class="">Color and canvases</a>
+<a href="output.html" class="">Output</a>
+<a href="live-control.html" class="">Live control</a>
+<a href="remote.html" class="">Remote</a>
+    </aside>
+    <article>
+      <h1>The model</h1>
+      
+<p class="lede">The model is the physical layout: zones, groups, and fixture instances. Open it with <strong>Model → Edit Model</strong>, or from the View menu.</p>
+<h2>Zones</h2>
+<p>A zone is a region of the installation, such as a staircase, a ceiling, or a room. The visualizer shows one zone at a time. Fixtures belong to a zone. Right-click a zone to create a fixture type, add a fixture, add a group, or delete the zone.</p>
+<p>Use <strong>Add Zone</strong> at the bottom of the model list to make another zone.</p>
+<h2>Groups</h2>
+<p>A group is a folder of fixtures inside a zone. Use <strong>Add Group</strong>, then add fixtures into it. Groups are for organization. They are not a fixture type.</p>
+<h2>Fixture instances</h2>
+<p>An instance is one placed copy of a fixture type. The tree shows the type in brackets and the instance name after it, for example <code>[MS_Railing_Strip] Handrail 4</code>.</p>
+<p>Right-click an instance for:</p>
+<ul>
+<li><strong>Duplicate Fixture</strong> — a copy of that instance, in the same place, with a new name.</li>
+<li><strong>Edit Fixture</strong> — open the type for project fixture types.</li>
+<li><strong>Render to Custom</strong> — turn that one instance into a new custom fixture. Paragon asks for a new type name. Other instances of the original type stay as they are.</li>
+<li><strong>Move to Zone</strong> — move the instance into another zone.</li>
+<li><strong>Delete</strong> — remove the instance. If the instance is used in an output mapping, delete that mapping first.</li>
+</ul>
+<h2>Deleting a fixture type</h2>
+<p>Deleting a type from the fixture library is separate from deleting an instance. If any instance of that type is still in the model, Paragon refuses and tells you how many instances to delete first. The type file is not removed, and the other copies stay in the model.</p>
+<h2>Reference meshes</h2>
+<p>A reference mesh is scenery for the visualizer, usually an OBJ of the architecture. Meshes are attached to a zone. They help you line fixtures up with the real space. They do not output light.</p>
+<figure class="shot">
+  <img src="images/model-tree.png" alt="Model tree">
+  <figcaption>Zones, groups, and fixture instances. Save as <code>images/model-tree.png</code>.</figcaption>
+</figure>
+
+    </article>
+  </div>
+  <script src="wiki.js"></script>
+</body>
+</html>

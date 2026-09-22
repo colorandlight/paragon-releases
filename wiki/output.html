@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Output — Paragon wiki</title>
+  <link rel="icon" type="image/png" href="/paragon-icon.png">
+  <link rel="stylesheet" href="wiki.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="/"><img src="/paragon-icon.png" alt="">Paragon</a>
+    <nav>
+      <a href="/wiki/">Wiki</a>
+      <a href="/">Download</a>
+      <a href="https://colorandlight.art">Color+Light</a>
+    </nav>
+  </header>
+  <div class="shell">
+    <aside class="side">
+      <a href="index.html" class="">Overview</a>
+<a href="install.html" class="">Install</a>
+<a href="projects-and-shows.html" class="">Projects and shows</a>
+<a href="model.html" class="">Model</a>
+<a href="fixtures.html" class="">Fixtures</a>
+<a href="visualizer.html" class="">Visualizer</a>
+<a href="mixer-and-scenes.html" class="">Mixer and scenes</a>
+<a href="color-and-canvases.html" class="">Color and canvases</a>
+<a href="output.html" class="here">Output</a>
+<a href="live-control.html" class="">Live control</a>
+<a href="remote.html" class="">Remote</a>
+    </aside>
+    <article>
+      <h1>Output</h1>
+      
+<p class="lede">Output is the path from a point in the model to a channel on a controller. Without a mapping, the visualizer still runs. The LEDs in the room do not.</p>
+<h2>License</h2>
+<p>LED output is disabled on an unlicensed Mac. The visualizer still works. License the Mac from <strong>Paragon → License…</strong> before a show that has to hit hardware.</p>
+<h2>Devices and universes</h2>
+<p>Open <strong>Output → Edit Outputs</strong>. Add the controllers for the installation and the universes they listen on. The universe editor is where a controller’s channel layout is set.</p>
+<h2>Fixture mapping</h2>
+<p>Map a fixture instance onto a device so each of its points lands on a channel. Mapping follows the fixture’s point order. If you delete a mapped fixture, Paragon asks you to remove the mapping first so a channel is not left pointing at a fixture that no longer exists.</p>
+<p><strong>Output → Save Outputs</strong> writes the mapping into the project. Save it separately from the model and the show.</p>
+<figure class="shot">
+  <img src="images/output.png" alt="Output window">
+  <figcaption>Devices and fixture mapping. Save as <code>images/output.png</code>.</figcaption>
+</figure>
+
+    </article>
+  </div>
+  <script src="wiki.js"></script>
+</body>
+</html>

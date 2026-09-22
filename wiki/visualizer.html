@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visualizer — Paragon wiki</title>
+  <link rel="icon" type="image/png" href="/paragon-icon.png">
+  <link rel="stylesheet" href="wiki.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="/"><img src="/paragon-icon.png" alt="">Paragon</a>
+    <nav>
+      <a href="/wiki/">Wiki</a>
+      <a href="/">Download</a>
+      <a href="https://colorandlight.art">Color+Light</a>
+    </nav>
+  </header>
+  <div class="shell">
+    <aside class="side">
+      <a href="index.html" class="">Overview</a>
+<a href="install.html" class="">Install</a>
+<a href="projects-and-shows.html" class="">Projects and shows</a>
+<a href="model.html" class="">Model</a>
+<a href="fixtures.html" class="">Fixtures</a>
+<a href="visualizer.html" class="here">Visualizer</a>
+<a href="mixer-and-scenes.html" class="">Mixer and scenes</a>
+<a href="color-and-canvases.html" class="">Color and canvases</a>
+<a href="output.html" class="">Output</a>
+<a href="live-control.html" class="">Live control</a>
+<a href="remote.html" class="">Remote</a>
+    </aside>
+    <article>
+      <h1>Visualizer</h1>
+      
+<p class="lede">The visualizer is the 3D view of the current zone. It shows LEDs, reference meshes, and the transform gizmo.</p>
+<h2>Camera</h2>
+<p>Drag to orbit. Scroll to zoom. Pan to slide the view. Hold <strong>X</strong>, <strong>Y</strong>, or <strong>Z</strong> for an orthographic view down that axis. The ground grid appears in those views and scales with the zoom.</p>
+<p>LEDs are drawn on top of the scenery so a mesh or the grid cannot hide them when you orbit. Selecting a fixture turns its points white.</p>
+<h2>Moving fixtures</h2>
+<p>Select a fixture in the model tree or by clicking it in the view. The gizmo translates or rotates it. In an axis view, a new strip node takes the two axes you can see from the cursor and the remaining axis from the previous node.</p>
+<p>Right-click a fixture in the view for Duplicate Fixture, Render to Custom when it applies, and Fixture Info.</p>
+<h2>What you are looking at</h2>
+<p>The view follows the zone selected for visualization. Points from other zones are not drawn. Reference meshes for that zone are drawn with the brightness and opacity set on the mesh.</p>
+<figure class="shot">
+  <img src="images/visualizer.png" alt="Visualizer with a zone">
+  <figcaption>A zone in the visualizer. Save as <code>images/visualizer.png</code>.</figcaption>
+</figure>
+
+    </article>
+  </div>
+  <script src="wiki.js"></script>
+</body>
+</html>

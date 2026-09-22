@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fixture types — Paragon wiki</title>
+  <link rel="icon" type="image/png" href="/paragon-icon.png">
+  <link rel="stylesheet" href="wiki.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="/"><img src="/paragon-icon.png" alt="">Paragon</a>
+    <nav>
+      <a href="/wiki/">Wiki</a>
+      <a href="/">Download</a>
+      <a href="https://colorandlight.art">Color+Light</a>
+    </nav>
+  </header>
+  <div class="shell">
+    <aside class="side">
+      <a href="index.html" class="">Overview</a>
+<a href="install.html" class="">Install</a>
+<a href="projects-and-shows.html" class="">Projects and shows</a>
+<a href="model.html" class="">Model</a>
+<a href="fixtures.html" class="here">Fixtures</a>
+<a href="visualizer.html" class="">Visualizer</a>
+<a href="mixer-and-scenes.html" class="">Mixer and scenes</a>
+<a href="color-and-canvases.html" class="">Color and canvases</a>
+<a href="output.html" class="">Output</a>
+<a href="live-control.html" class="">Live control</a>
+<a href="remote.html" class="">Remote</a>
+    </aside>
+    <article>
+      <h1>Fixture types</h1>
+      
+<p class="lede">A fixture type is the template. Instances in the model are copies of that template, each with its own position.</p>
+<h2>Creating a type</h2>
+<p>From a zone’s menu, choose <strong>Create Fixture</strong>. Paragon asks which kind:</p>
+<ul>
+<li><strong>Custom</strong> — place points by hand, and nest other fixtures inside the type.</li>
+<li><strong>Strip</strong> — plot a few nodes into a line. Paragon generates the LEDs from a count, using stretch or a fixed pitch.</li>
+</ul>
+<p>Types can be filed into folders in the fixture list. Drag a type onto a folder to move it. Right-click a folder to rename or delete it. A folder cannot be deleted while any type inside it still has instances in the model.</p>
+<h2>Strips</h2>
+<p>A strip is defined by nodes, an LED count, and a distribution mode.</p>
+<ul>
+<li><strong>Stretch</strong> spreads the LEDs evenly between the nodes.</li>
+<li><strong>Pitch</strong> spaces LEDs by a distance you set. Pitch is entered in the project’s length unit.</li>
+</ul>
+<p>Changing the LED count, mode, or pitch updates instances of that strip type. Focus the field and leave it before the change is written, so a stray click does not rewrite the strip.</p>
+<h2>Editing points</h2>
+<p>Open a type to edit its points or nodes in the visualizer. Custom fixtures store each point. Strip fixtures store the nodes; the LEDs are generated.</p>
+<p><strong>Render to Custom</strong> bakes one strip instance into a new custom type. You name that type. The new type has one editable point per LED, and it no longer has stretch, pitch, or an LED count. Only the instance you rendered changes type.</p>
+<h2>Adding an instance</h2>
+<p>Right-click a zone and choose <strong>Add Fixture</strong>, or use the Add Fixture button, and pick a type. The new instance appears in that zone. Duplicate an existing instance when you want the same pose copied.</p>
+<figure class="shot">
+  <img src="images/create-fixture.png" alt="Create Fixture dialog">
+  <figcaption>Choosing Custom or Strip. Save as <code>images/create-fixture.png</code>.</figcaption>
+</figure>
+<figure class="shot">
+  <img src="images/strip-inspector.png" alt="Strip LED settings">
+  <figcaption>LED count, stretch, and pitch. Save as <code>images/strip-inspector.png</code>.</figcaption>
+</figure>
+
+    </article>
+  </div>
+  <script src="wiki.js"></script>
+</body>
+</html>

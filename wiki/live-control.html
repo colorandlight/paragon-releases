@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Live control — Paragon wiki</title>
+  <link rel="icon" type="image/png" href="/paragon-icon.png">
+  <link rel="stylesheet" href="wiki.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="/"><img src="/paragon-icon.png" alt="">Paragon</a>
+    <nav>
+      <a href="/wiki/">Wiki</a>
+      <a href="/">Download</a>
+      <a href="https://colorandlight.art">Color+Light</a>
+    </nav>
+  </header>
+  <div class="shell">
+    <aside class="side">
+      <a href="index.html" class="">Overview</a>
+<a href="install.html" class="">Install</a>
+<a href="projects-and-shows.html" class="">Projects and shows</a>
+<a href="model.html" class="">Model</a>
+<a href="fixtures.html" class="">Fixtures</a>
+<a href="visualizer.html" class="">Visualizer</a>
+<a href="mixer-and-scenes.html" class="">Mixer and scenes</a>
+<a href="color-and-canvases.html" class="">Color and canvases</a>
+<a href="output.html" class="">Output</a>
+<a href="live-control.html" class="here">Live control</a>
+<a href="remote.html" class="">Remote</a>
+    </aside>
+    <article>
+      <h1>Live control</h1>
+      
+<p class="lede">These panels sit on the Show menu. They change a running show without editing the scene by hand.</p>
+<h2>MIDI</h2>
+<p><strong>Show → Edit Midi</strong> listens to a MIDI device and routes notes or controllers to parameters. Use it for a control surface or a show-control message.</p>
+<h2>Audio</h2>
+<p><strong>Show → Edit Audio</strong> takes a level from an audio input. Map that level onto brightness, speed, or any other parameter that should follow sound.</p>
+<h2>Triggers</h2>
+<p><strong>Show → Edit Triggers</strong> fires an action when an input matches: a MIDI note, a button, or another trigger source. Triggers are for discrete events, such as advancing a scene.</p>
+<h2>Modulators</h2>
+<p><strong>Show → Edit Modulators</strong> builds continuous motion on top of a parameter. Periodic modulators repeat a shape. Timer modulators run for a set duration. A modulator is how a static level becomes a pulse, a fade, or a sweep without a new scene.</p>
+<h2>Schedule</h2>
+<p><strong>Show → Edit Schedule</strong> runs show changes on a clock. Use it for installations that should start, switch scenes, or stop without an operator.</p>
+<figure class="shot">
+  <img src="images/live-control.png" alt="Triggers or modulators">
+  <figcaption>A live-control panel. Save as <code>images/live-control.png</code>.</figcaption>
+</figure>
+
+    </article>
+  </div>
+  <script src="wiki.js"></script>
+</body>
+</html>

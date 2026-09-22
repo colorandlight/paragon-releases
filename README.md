@@ -12,6 +12,12 @@ This repository does **not** contain application source. It exists so anyone can
 
 The app is Developer ID signed and notarized. Licensing / purchase will be handled in the app later; the download itself is free.
 
+## Wiki
+
+Feature documentation is published at [paragon.colorandlight.art/wiki](https://paragon.colorandlight.art/wiki).
+
+Screenshots go in `wiki/images/`. Each page caption names the file. A missing image stays hidden.
+
 ## Support
 
 Color+Light — [colorandlight.art](https://colorandlight.art)
